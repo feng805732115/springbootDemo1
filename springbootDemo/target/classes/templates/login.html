@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body>
+<div>
+    <h1>这是一个卖的商品1</h1>
+    <form action="union/orderpay" method="post">
+        <img src="../images/pic3.jpg"/>
+        <input type="hidden" name="orderNumber" value="13123423q"/>
+        <input type="text" name="goodsName" value="贵人鸟男鞋" readonly/>
+        <input type="text" name="txnAmt" value="560" readonly/>
+        <input type="submit" value="去付款"/>
+    </form>
+    
+</div>
+
+这是性别为女的所有人名单
+<div  th:each="name:${userNames}">
+    <p th:text="'姓名：'+${name}"></p>
+</div>
+这是一所有人员列表
+<div th:each="smbmsUser,smbmsUserStat:${userList}">
+    <p th:text="'姓名：'+${smbmsUser.userName}"></p>
+    <p th:text="'地址：'+${smbmsUser.address}"></p>
+</div>
+
+</body>
+</html>
