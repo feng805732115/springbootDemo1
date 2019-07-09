@@ -1,0 +1,577 @@
+[INFO ] 2019-07-09 10:13:25 [restartedMain] c.s.s.SpringBootDemoApplication - Starting SpringBootDemoApplication on PC-20180926ADWY with PID 6692 (E:\GitRepository\repository2\springbootDemo\target\classes started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 10:13:25 [restartedMain] c.s.s.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6aa4342] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4540 ms
+[INFO ] 2019-07-09 10:13:25 [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2019-07-09 10:13:25 [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2019-07-09 10:13:25 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-07-09 10:13:25 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-07-09 10:13:25 [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 10:13:25 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2019-07-09 10:13:25 [restartedMain] c.s.s.SpringBootDemoApplication - Started SpringBootDemoApplication in 9.458 seconds (JVM running for 10.389)
+[INFO ] 2019-07-09 10:13:25 [restartedMain] ACP_SDK_LOG - 从classpath: /E:/GitRepository/repository2/springbootDemo/target/classes/ 获取属性文件acp_sdk.properties
+[INFO ] 2019-07-09 10:13:25 [restartedMain] ACP_SDK_LOG - 开始从属性文件中加载配置项
+[INFO ] 2019-07-09 10:13:25 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书路径==>acpsdk.signCert.path==>E:/certs/acp_test_sign.pfx 已加载
+[INFO ] 2019-07-09 10:13:25 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+[INFO ] 2019-07-09 10:13:25 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+[INFO ] 2019-07-09 10:13:25 [restartedMain] ACP_SDK_LOG - 配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>E:/certs/acp_test_enc.cer 已加载
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 打印请求报文域 :
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - bizType-->000201
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - txnSubType-->01
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - orderId-->13123423q
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - backUrl-->http://localhost:8080/union/notifyurl
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - txnType-->01
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - channelType-->07
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - frontUrl-->http://www.baidu.com
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - encoding-->UTF-8
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - version-->5.1.0
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - accessType-->0
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - txnTime-->20190709101356
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - merId-->777290058171076 
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - payTimeout-->20190709102856
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - currencyCode-->156
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - signMethod-->01
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - txnAmt-->560
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - riskRateInfo-->{commodityName=贵人鸟男鞋}
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - add BC provider
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - ================= SYS INFO begin====================
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - os_name:Windows 7
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - os_arch:amd64
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - os_version:6.1
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_specification_version:1.8
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_specification_vendor:Oracle Corporation
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_specification_name:Java Virtual Machine Specification
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_version:25.181-b13
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_name:Java HotSpot(TM) 64-Bit Server VM
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java.version:1.8.0_181
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java.vm.vendor=[Oracle Corporation]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - java.version=[1.8.0_181]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - Providers List:
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 1.SUN
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 2.SunRsaSign
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 3.SunEC
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 4.SunJSSE
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 5.SunJCE
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 6.SunJGSS
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 7.SunSASL
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 8.XMLDSig
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 9.SunPCSC
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 10.SunMSCAPI
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 11.BC
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - ================= SYS INFO end=====================
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载签名证书==>E:/certs/acp_test_sign.pfx
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - Load RSA CertPath=[E:/certs/acp_test_sign.pfx],Pwd=[000000],type=[PKCS12]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - InitSignCert Successful. CertId=[69629715588]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载中级证书==>E:/certs/acp_test_middle.cer
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - [E:/certs/acp_test_middle.cer][CertId=117191299423423768281798]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - Load MiddleCert Successful
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载根证书==>E:/certs/acp_test_root.cer
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - [E:/certs/acp_test_root.cer][CertId=387593676442880368392934]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - Load RootCert Successful
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载敏感信息加密证书==>E:/certs/acp_test_enc.cer
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - [E:/certs/acp_test_enc.cer][CertId=69026275926]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - Load EncryptCert Successful
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - WARN: acpsdk.encryptTrackKey.modulus or acpsdk.encryptTrackKey.exponent is empty
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载验证签名证书目录==>null 注：如果请求报文中version=5.1.0那么此验签证书目录使用不到，可以不需要设置（version=5.0.0必须设置）。
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://localhost:8080/union/notifyurl&bizType=000201&certId=69629715588&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://www.baidu.com&merId=777290058171076&orderId=13123423q&payTimeout=20190709102856&riskRateInfo={commodityName=贵人鸟男鞋}&signMethod=01&txnAmt=560&txnSubType=01&txnTime=20190709101356&txnType=01&version=5.1.0]
+[INFO ] 2019-07-09 10:13:25 [http-nio-8080-exec-9] ACP_SDK_LOG - 打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[78942488d4ee9638e6b73ecd0aecbe2b04257be096d31d49f88eab9aa245f2fd]
+[INFO ] 2019-07-09 10:13:25 [Thread-5] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 10:13:25 [Thread-5] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 10:13:25 [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 10:13:25 [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2019-07-09 10:13:25 [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2019-07-09 10:18:23 [restartedMain] c.s.s.SpringBootDemoApplication - Starting SpringBootDemoApplication on PC-20180926ADWY with PID 6692 (E:\GitRepository\repository2\springbootDemo\target\classes started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 10:18:23 [restartedMain] c.s.s.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6aa4342] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 708 ms
+[INFO ] 2019-07-09 10:18:23 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2019-07-09 10:18:23 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2019-07-09 10:18:23 [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2019-07-09 10:18:23 [restartedMain] c.s.s.SpringBootDemoApplication - Started SpringBootDemoApplication in 1.432 seconds (JVM running for 300.762)
+[INFO ] 2019-07-09 10:18:23 [restartedMain] ACP_SDK_LOG - 从classpath: /E:/GitRepository/repository2/springbootDemo/target/classes/ 获取属性文件acp_sdk.properties
+[INFO ] 2019-07-09 10:18:23 [restartedMain] ACP_SDK_LOG - 开始从属性文件中加载配置项
+[INFO ] 2019-07-09 10:18:23 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书路径==>acpsdk.signCert.path==>E:/certs/acp_test_sign.pfx 已加载
+[INFO ] 2019-07-09 10:18:23 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+[INFO ] 2019-07-09 10:18:23 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+[INFO ] 2019-07-09 10:18:23 [restartedMain] ACP_SDK_LOG - 配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>E:/certs/acp_test_enc.cer 已加载
+[INFO ] 2019-07-09 10:18:23 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-07-09 11:34:26 [main] c.s.s.UserControllerTest - Starting UserControllerTest on PC-20180926ADWY with PID 7248 (started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 11:34:26 [main] c.s.s.UserControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 11:34:26 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 11:34:26 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 11:34:26 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd646f67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 11:34:26 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2019-07-09 11:34:26 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2019-07-09 11:34:26 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2019-07-09 11:34:26 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-07-09 11:34:26 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-07-09 11:34:26 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 11:34:26 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 11:34:26 [main] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 11:34:26 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 11:34:26 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 11:34:26 [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 11:34:26 [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2019-07-09 11:34:26 [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2019-07-09 11:34:26 [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 20 ms
+[INFO ] 2019-07-09 11:34:26 [main] c.s.s.UserControllerTest - Started UserControllerTest in 6.663 seconds (JVM running for 7.697)
+[INFO ] 2019-07-09 11:34:26 [main] ACP_SDK_LOG - ��classpath: /E:/GitRepository/repository2/springbootDemo/target/test-classes/ ��ȡ�����ļ�acp_sdk.properties
+[INFO ] 2019-07-09 11:34:26 [main] ACP_SDK_LOG - ��ʼ�������ļ��м���������
+[INFO ] 2019-07-09 11:34:26 [main] ACP_SDK_LOG - �����˽Կǩ��֤��·��==>acpsdk.signCert.path==>E:/certs/acp_test_sign.pfx �Ѽ���
+[INFO ] 2019-07-09 11:34:26 [main] ACP_SDK_LOG - �����˽Կǩ��֤������==>acpsdk.signCert.pwd �Ѽ���
+[INFO ] 2019-07-09 11:34:26 [main] ACP_SDK_LOG - �����˽Կǩ��֤������==>acpsdk.signCert.type==>PKCS12 �Ѽ���
+[INFO ] 2019-07-09 11:34:26 [main] ACP_SDK_LOG - �����������Ϣ����֤��==>acpsdk.encryptCert.path==>E:/certs/acp_test_enc.cer �Ѽ���
+[INFO ] 2019-07-09 11:34:26 [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2019-07-09 11:34:26 [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2019-07-09 11:34:26 [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2019-07-09 11:34:26 [Thread-4] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 11:34:26 [Thread-4] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 11:34:26 [Thread-4] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 11:34:26 [Thread-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2019-07-09 11:34:26 [Thread-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2019-07-09 11:36:58 [main] c.s.s.UserControllerTest - Starting UserControllerTest on PC-20180926ADWY with PID 7592 (started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 11:36:58 [main] c.s.s.UserControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 11:36:58 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 11:36:58 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 11:36:58 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$89f5df66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 11:36:58 [main] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2019-07-09 11:36:58 [main] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2019-07-09 11:36:58 [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2019-07-09 11:36:58 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-07-09 11:36:58 [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-07-09 11:36:58 [main] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 11:36:58 [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 11:36:58 [main] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 11:36:58 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 11:36:58 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 11:36:58 [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 11:36:58 [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2019-07-09 11:36:58 [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2019-07-09 11:36:58 [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 23 ms
+[INFO ] 2019-07-09 11:36:58 [main] c.s.s.UserControllerTest - Started UserControllerTest in 6.734 seconds (JVM running for 7.729)
+[INFO ] 2019-07-09 11:36:58 [main] ACP_SDK_LOG - ��classpath: /E:/GitRepository/repository2/springbootDemo/target/test-classes/ ��ȡ�����ļ�acp_sdk.properties
+[INFO ] 2019-07-09 11:36:58 [main] ACP_SDK_LOG - ��ʼ�������ļ��м���������
+[INFO ] 2019-07-09 11:36:58 [main] ACP_SDK_LOG - �����˽Կǩ��֤��·��==>acpsdk.signCert.path==>E:/certs/acp_test_sign.pfx �Ѽ���
+[INFO ] 2019-07-09 11:36:58 [main] ACP_SDK_LOG - �����˽Կǩ��֤������==>acpsdk.signCert.pwd �Ѽ���
+[INFO ] 2019-07-09 11:36:58 [main] ACP_SDK_LOG - �����˽Կǩ��֤������==>acpsdk.signCert.type==>PKCS12 �Ѽ���
+[INFO ] 2019-07-09 11:36:58 [main] ACP_SDK_LOG - �����������Ϣ����֤��==>acpsdk.encryptCert.path==>E:/certs/acp_test_enc.cer �Ѽ���
+[INFO ] 2019-07-09 11:36:58 [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2019-07-09 11:36:58 [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2019-07-09 11:36:58 [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2019-07-09 11:36:58 [Thread-4] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 11:36:58 [Thread-4] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 11:36:58 [Thread-4] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 11:36:58 [Thread-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2019-07-09 11:36:58 [Thread-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2019-07-09 14:57:59 [restartedMain] c.s.s.SpringBootDemoApplication - Starting SpringBootDemoApplication on PC-20180926ADWY with PID 8176 (E:\GitRepository\repository2\springbootDemo\target\classes started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 14:57:59 [restartedMain] c.s.s.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd483f42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3884 ms
+[INFO ] 2019-07-09 14:57:59 [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2019-07-09 14:57:59 [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2019-07-09 14:57:59 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-07-09 14:57:59 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-07-09 14:57:59 [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 14:57:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2019-07-09 14:57:59 [restartedMain] c.s.s.SpringBootDemoApplication - Started SpringBootDemoApplication in 7.678 seconds (JVM running for 8.315)
+[INFO ] 2019-07-09 14:57:59 [restartedMain] ACP_SDK_LOG - 从classpath: /E:/GitRepository/repository2/springbootDemo/target/classes/ 获取属性文件acp_sdk.properties
+[INFO ] 2019-07-09 14:57:59 [restartedMain] ACP_SDK_LOG - 开始从属性文件中加载配置项
+[INFO ] 2019-07-09 14:57:59 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书路径==>acpsdk.signCert.path==>E:/certs/acp_test_sign.pfx 已加载
+[INFO ] 2019-07-09 14:57:59 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+[INFO ] 2019-07-09 14:57:59 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+[INFO ] 2019-07-09 14:57:59 [restartedMain] ACP_SDK_LOG - 配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>E:/certs/acp_test_enc.cer 已加载
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 打印请求报文域 :
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - bizType-->000201
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - txnSubType-->01
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - orderId-->13123423q
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - backUrl-->http://localhost:8080/union/notifyurl
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - txnType-->01
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - channelType-->07
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - frontUrl-->http://www.baidu.com
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - encoding-->UTF-8
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - version-->5.1.0
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - accessType-->0
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - txnTime-->20190709145830
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - merId-->777290058171076 
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - payTimeout-->20190709151330
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - currencyCode-->156
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - signMethod-->01
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - txnAmt-->560
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - riskRateInfo-->{commodityName=贵人鸟男鞋}
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - add BC provider
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - ================= SYS INFO begin====================
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - os_name:Windows 7
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - os_arch:amd64
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - os_version:6.1
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_specification_version:1.8
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_specification_vendor:Oracle Corporation
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_specification_name:Java Virtual Machine Specification
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_version:25.181-b13
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java_vm_name:Java HotSpot(TM) 64-Bit Server VM
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java.version:1.8.0_181
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java.vm.vendor=[Oracle Corporation]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - java.version=[1.8.0_181]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - Providers List:
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 1.SUN
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 2.SunRsaSign
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 3.SunEC
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 4.SunJSSE
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 5.SunJCE
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 6.SunJGSS
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 7.SunSASL
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 8.XMLDSig
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 9.SunPCSC
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 10.SunMSCAPI
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 11.BC
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - ================= SYS INFO end=====================
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载签名证书==>E:/certs/acp_test_sign.pfx
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - Load RSA CertPath=[E:/certs/acp_test_sign.pfx],Pwd=[000000],type=[PKCS12]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - InitSignCert Successful. CertId=[69629715588]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载中级证书==>E:/certs/acp_test_middle.cer
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - [E:/certs/acp_test_middle.cer][CertId=117191299423423768281798]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - Load MiddleCert Successful
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载根证书==>E:/certs/acp_test_root.cer
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - [E:/certs/acp_test_root.cer][CertId=387593676442880368392934]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - Load RootCert Successful
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载敏感信息加密证书==>E:/certs/acp_test_enc.cer
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - [E:/certs/acp_test_enc.cer][CertId=69026275926]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - Load EncryptCert Successful
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - WARN: acpsdk.encryptTrackKey.modulus or acpsdk.encryptTrackKey.exponent is empty
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 加载验证签名证书目录==>null 注：如果请求报文中version=5.1.0那么此验签证书目录使用不到，可以不需要设置（version=5.0.0必须设置）。
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://localhost:8080/union/notifyurl&bizType=000201&certId=69629715588&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://www.baidu.com&merId=777290058171076&orderId=13123423q&payTimeout=20190709151330&riskRateInfo={commodityName=贵人鸟男鞋}&signMethod=01&txnAmt=560&txnSubType=01&txnTime=20190709145830&txnType=01&version=5.1.0]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-9] ACP_SDK_LOG - 打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[399e26dc0cf48926138e156b5cf1e38bd4ad0c4f5f7496a9ff3b9cf2c6f9d2a2]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] c.s.s.SpringBootDemoApplication - Starting SpringBootDemoApplication on PC-20180926ADWY with PID 4792 (E:\GitRepository\repository2\springbootDemo\target\classes started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 15:12:24 [restartedMain] c.s.s.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7463fdfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3884 ms
+[INFO ] 2019-07-09 15:12:24 [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2019-07-09 15:12:24 [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2019-07-09 15:12:24 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-07-09 15:12:24 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-07-09 15:12:24 [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 15:12:24 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 15:12:24 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2019-07-09 15:12:24 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - 打印请求报文域 :
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - bizType-->000201
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - txnSubType-->01
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - orderId-->13123423q
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - backUrl-->http://localhost:8080/union/notifyurl
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - txnType-->01
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - channelType-->07
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - frontUrl-->http://www.baidu.com
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - encoding-->UTF-8
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - version-->5.1.0
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - accessType-->0
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - txnTime-->20190709151307
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - merId-->777290058171076 
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - payTimeout-->20190709152807
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - currencyCode-->156
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - signMethod-->01
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - txnAmt-->560
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - riskRateInfo-->{commodityName=贵人鸟男鞋}
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - 打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://localhost:8080/union/notifyurl&bizType=000201&certId=69629715588&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://www.baidu.com&merId=777290058171076&orderId=13123423q&payTimeout=20190709152807&riskRateInfo={commodityName=贵人鸟男鞋}&signMethod=01&txnAmt=560&txnSubType=01&txnTime=20190709151307&txnType=01&version=5.1.0]
+[INFO ] 2019-07-09 14:57:59 [http-nio-8080-exec-4] ACP_SDK_LOG - 打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[f46acdbfb218983d18dc174e1279a84f31c5cfd6be5872ff160548177556cbe1]
+[INFO ] 2019-07-09 14:57:59 [Thread-5] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 14:57:59 [Thread-5] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 14:57:59 [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 14:57:59 [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2019-07-09 14:57:59 [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2019-07-09 15:13:50 [restartedMain] c.s.s.SpringBootDemoApplication - Starting SpringBootDemoApplication on PC-20180926ADWY with PID 8176 (E:\GitRepository\repository2\springbootDemo\target\classes started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 15:13:50 [restartedMain] c.s.s.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd483f42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 783 ms
+[INFO ] 2019-07-09 15:13:50 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2019-07-09 15:13:50 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2019-07-09 15:13:50 [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2019-07-09 15:13:50 [restartedMain] c.s.s.SpringBootDemoApplication - Started SpringBootDemoApplication in 1.479 seconds (JVM running for 953.718)
+[INFO ] 2019-07-09 15:13:50 [restartedMain] ACP_SDK_LOG - 从classpath: /E:/GitRepository/repository2/springbootDemo/target/classes/ 获取属性文件acp_sdk.properties
+[INFO ] 2019-07-09 15:13:50 [restartedMain] ACP_SDK_LOG - 开始从属性文件中加载配置项
+[INFO ] 2019-07-09 15:13:50 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书路径==>acpsdk.signCert.path==>E:/certs/acp_test_sign.pfx 已加载
+[INFO ] 2019-07-09 15:13:50 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+[INFO ] 2019-07-09 15:13:50 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+[INFO ] 2019-07-09 15:13:50 [restartedMain] ACP_SDK_LOG - 配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>E:/certs/acp_test_enc.cer 已加载
+[INFO ] 2019-07-09 15:13:50 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-07-09 15:14:29 [restartedMain] c.s.s.SpringBootDemoApplication - Starting SpringBootDemoApplication on PC-20180926ADWY with PID 7264 (E:\GitRepository\repository2\springbootDemo\target\classes started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 15:14:29 [restartedMain] c.s.s.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8d30b1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3940 ms
+[INFO ] 2019-07-09 15:14:29 [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2019-07-09 15:14:29 [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2019-07-09 15:14:29 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-07-09 15:14:29 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-07-09 15:14:29 [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 15:14:29 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 15:14:29 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2019-07-09 15:14:29 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2019-07-09 15:13:50 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-07-09 15:13:50 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-07-09 15:13:50 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+[INFO ] 2019-07-09 15:32:07 [restartedMain] c.s.s.SpringBootDemoApplication - Starting SpringBootDemoApplication on PC-20180926ADWY with PID 6572 (E:\GitRepository\repository2\springbootDemo\target\classes started by Administrator in E:\GitRepository\repository2\springbootDemo)
+[INFO ] 2019-07-09 15:32:07 [restartedMain] c.s.s.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$133ab7e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3803 ms
+[INFO ] 2019-07-09 15:32:07 [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+[INFO ] 2019-07-09 15:32:07 [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[INFO ] 2019-07-09 15:32:07 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-07-09 15:32:07 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-07-09 15:32:07 [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2019-07-09 15:32:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2019-07-09 15:32:07 [restartedMain] c.s.s.SpringBootDemoApplication - Started SpringBootDemoApplication in 7.357 seconds (JVM running for 8.008)
+[INFO ] 2019-07-09 15:32:07 [restartedMain] ACP_SDK_LOG - 从classpath: /E:/GitRepository/repository2/springbootDemo/target/classes/ 获取属性文件acp_sdk.properties
+[INFO ] 2019-07-09 15:32:07 [restartedMain] ACP_SDK_LOG - 开始从属性文件中加载配置项
+[INFO ] 2019-07-09 15:32:07 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书路径==>acpsdk.signCert.path==>E:/certs/acp_test_sign.pfx 已加载
+[INFO ] 2019-07-09 15:32:07 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书密码==>acpsdk.signCert.pwd 已加载
+[INFO ] 2019-07-09 15:32:07 [restartedMain] ACP_SDK_LOG - 配置项：私钥签名证书类型==>acpsdk.signCert.type==>PKCS12 已加载
+[INFO ] 2019-07-09 15:32:07 [restartedMain] ACP_SDK_LOG - 配置项：敏感信息加密证书==>acpsdk.encryptCert.path==>E:/certs/acp_test_enc.cer 已加载
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 打印请求报文域 :
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - bizType-->000201
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - txnSubType-->01
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - orderId-->13123423q
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - backUrl-->http://localhost:8080/union/notifyurl
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - txnType-->01
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - channelType-->07
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - frontUrl-->http://www.baidu.com
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - encoding-->UTF-8
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - version-->5.1.0
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - accessType-->0
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - txnTime-->20190709153413
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - merId-->777290058171076 
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - payTimeout-->20190709154913
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - currencyCode-->156
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - signMethod-->01
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - txnAmt-->560
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - riskRateInfo-->{commodityName=贵人鸟男鞋}
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - add BC provider
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - ================= SYS INFO begin====================
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - os_name:Windows 7
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - os_arch:amd64
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - os_version:6.1
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java_vm_specification_version:1.8
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java_vm_specification_vendor:Oracle Corporation
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java_vm_specification_name:Java Virtual Machine Specification
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java_vm_version:25.181-b13
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java_vm_name:Java HotSpot(TM) 64-Bit Server VM
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java.version:1.8.0_181
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java.vm.vendor=[Oracle Corporation]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - java.version=[1.8.0_181]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - Providers List:
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 1.SUN
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 2.SunRsaSign
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 3.SunEC
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 4.SunJSSE
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 5.SunJCE
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 6.SunJGSS
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 7.SunSASL
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 8.XMLDSig
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 9.SunPCSC
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 10.SunMSCAPI
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 11.BC
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - ================= SYS INFO end=====================
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 加载签名证书==>E:/certs/acp_test_sign.pfx
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - Load RSA CertPath=[E:/certs/acp_test_sign.pfx],Pwd=[000000],type=[PKCS12]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - InitSignCert Successful. CertId=[69629715588]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 加载中级证书==>E:/certs/acp_test_middle.cer
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - [E:/certs/acp_test_middle.cer][CertId=117191299423423768281798]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - Load MiddleCert Successful
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 加载根证书==>E:/certs/acp_test_root.cer
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - [E:/certs/acp_test_root.cer][CertId=387593676442880368392934]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - Load RootCert Successful
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 加载敏感信息加密证书==>E:/certs/acp_test_enc.cer
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - [E:/certs/acp_test_enc.cer][CertId=69026275926]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - Load EncryptCert Successful
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - WARN: acpsdk.encryptTrackKey.modulus or acpsdk.encryptTrackKey.exponent is empty
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 加载验证签名证书目录==>null 注：如果请求报文中version=5.1.0那么此验签证书目录使用不到，可以不需要设置（version=5.0.0必须设置）。
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://localhost:8080/union/notifyurl&bizType=000201&certId=69629715588&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://www.baidu.com&merId=777290058171076&orderId=13123423q&payTimeout=20190709154913&riskRateInfo={commodityName=贵人鸟男鞋}&signMethod=01&txnAmt=560&txnSubType=01&txnTime=20190709153413&txnType=01&version=5.1.0]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-8] ACP_SDK_LOG - 打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[c451720dca218d59e9b22909453acadfa30eefee959af64b08ac9ee45919a228]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - 打印请求报文域 :
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - bizType-->000201
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - txnSubType-->01
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - orderId-->13123423q
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - backUrl-->http://localhost:8080/union/notifyurl
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - txnType-->01
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - channelType-->07
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - frontUrl-->http://www.baidu.com
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - encoding-->UTF-8
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - version-->5.1.0
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - accessType-->0
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - txnTime-->20190709153445
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - merId-->777290058171076 
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - payTimeout-->20190709154945
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - currencyCode-->156
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - signMethod-->01
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - txnAmt-->560
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - riskRateInfo-->{commodityName=贵人鸟男鞋}
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - 打印待签名请求报文串（交易返回11验证签名失败时可以用来同正确的进行比对）:[accessType=0&backUrl=http://localhost:8080/union/notifyurl&bizType=000201&certId=69629715588&channelType=07&currencyCode=156&encoding=UTF-8&frontUrl=http://www.baidu.com&merId=777290058171076&orderId=13123423q&payTimeout=20190709154945&riskRateInfo={commodityName=贵人鸟男鞋}&signMethod=01&txnAmt=560&txnSubType=01&txnTime=20190709153445&txnType=01&version=5.1.0]
+[INFO ] 2019-07-09 15:32:07 [http-nio-8080-exec-2] ACP_SDK_LOG - 打印摘要（交易返回11验证签名失败可以用来同正确的进行比对）:[96706ef89eb6c43d7497f5e48a7651465929e095319ab1b50da7571dbcc88a84]
