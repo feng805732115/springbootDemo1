@@ -7,14 +7,14 @@
 <body>
 <div>
     <h1>这是一个卖的商品1</h1>
-    <form action="union/orderpay" method="post">
+    <form action="javascript:;">
         <img src="../images/pic3.jpg"/>
-        <input type="hidden" name="orderNumber" value="13123423q"/>
-        <input type="text" name="goodsName" value="贵人鸟男鞋" readonly/>
-        <input type="text" name="txnAmt" value="560" readonly/>
-        <input type="submit" value="去付款"/>
+        <input id="orderNumber" type="hidden" name="orderNumber" value="13123423q"/>
+        <input id="goodsName" type="text" name="goodsName" value="贵人鸟男鞋" readonly/>
+        <input id="txnAmt" type="text" name="txnAmt" value="560" readonly/>
+        <input id="union" type="button" value="去银联付款"/>
+        <input id="alipay" type="button" value="去支付宝付款"/>
     </form>
-    
 </div>
 
 这是性别为女的所有人名单
@@ -26,6 +26,37 @@
     <p th:text="'姓名：'+${smbmsUser.userName}"></p>
     <p th:text="'地址：'+${smbmsUser.address}"></p>
 </div>
+<script type="text/javascript" src="../js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var orderNumber=$("#orderNumber").val();
+	var goodsName=$("#goodsName").val();
+	var txnAmt=$("#txnAmt").val();
+	$("#union").click(function(){
+		$.ajax({
+			url:"union/orderpay",
+			data:{"orderNumber":orderNumber,"goodsName":goodsName,"txnAmt":txnAmt},
+			type:"post",
+			success:function(data){
+			  $("body").html("").html(data);				
+			}			
+		});
+	});
 
+    $("#alipay").click(function(){
+    	$.ajax({
+			url:"alipay/goAlipay",
+			data:{"orderNumber":orderNumber,"goodsName":goodsName,"txnAmt":txnAmt},
+			type:"post",
+			success:function(data){
+			  $("body").html("").html(data);				
+			}			
+		});
+	});
+});
+
+
+
+</script>
 </body>
 </html>
